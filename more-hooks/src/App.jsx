@@ -6,7 +6,7 @@ export const ACTION_TYPE = {
   ADD_POST: 'add-post',
   TOGGLE: 'toggle',
 };
-/*a*/
+
 function App() {
   const [posts, dispatch] = useReducer(reducer, []);
   const [name, setName] = useState('');
